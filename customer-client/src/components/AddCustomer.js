@@ -59,6 +59,17 @@ export default function AddCustomer() {
 
   const url = "https://localhost:7184/api/customers";
 
+  const getCustomerData = () => {
+    axios.get(url)
+    .then((responseData) => {
+      setCustomer(responseData.data)
+    })
+    .catch((error)=>{
+      console.log(error);
+    })
+  }
+
+
   const handleEdit = (id) => {
     handleShow();
   }
@@ -89,6 +100,28 @@ export default function AddCustomer() {
       console.log(error);
     })
   }
+
+  const handleSave = () => {
+    const url = "https://localhost:7184/api/customers";
+    const cusData = {
+      "firstName": firstName,
+      "lastName": lastName,
+      "emailAddress": emailAddress,
+      "dateOfBirth": dateOfBirth,
+      "age": 76
+    }
+    axios.post(url, cusData)
+    .then((result)=>{
+      getCustomerData();
+    })
+  }
+
+  const clear = () => {
+    setFirstname('');
+    setLastname('');
+    setEmailAddress('')
+  }
+
 
   return (
     <Center>
