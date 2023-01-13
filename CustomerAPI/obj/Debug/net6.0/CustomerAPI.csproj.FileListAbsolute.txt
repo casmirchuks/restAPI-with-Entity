@@ -41,3 +41,6 @@ C:\Users\godbl\source\repos\CustomerAPI\CustomerAPI\bin\Debug\net6.0\Microsoft.E
 C:\Users\godbl\source\repos\CustomerAPI\CustomerAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\godbl\source\repos\CustomerAPI\CustomerAPI\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
 C:\Users\godbl\source\repos\CustomerAPI\CustomerAPI\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Ernest Keita\restAPI-with-Entity\CustomerAPI\obj\Debug\net6.0\CustomerAPI.dll
+C:\Users\Ernest Keita\restAPI-with-Entity\CustomerAPI\obj\Debug\net6.0\refint\CustomerAPI.dll
+C:\Users\Ernest Keita\restAPI-with-Entity\CustomerAPI\obj\Debug\net6.0\CustomerAPI.pdb
